@@ -1,7 +1,7 @@
 const toggleSwitch = document.querySelector('input[type="checkbox"]');
 
 // Switch Theme Dynamically
-function switchTheme(event){
+function switchTheme(event) {
     if (event.target.checked) {
         document.documentElement.setAttribute('data-theme', 'dark');
     } else {
@@ -10,4 +10,4 @@ function switchTheme(event){
 }
 
 // Event Listener
-toggleSwitch.addEventListerner('change', switchTheme);
+toggleSwitch.addEventListener('change', switchTheme);
