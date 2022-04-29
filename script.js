@@ -6,6 +6,8 @@ const image2 = document.getElementById('image2');
 const image3 = document.getElementById('image3');
 const textBox = document.getElementById('text-box');
 
+//Dark or Light Images
+
 // Dark Mode Styles
 function darkMode() {
     nav.style.backgroundColor = 'rgb(0 0 0 / 50%)';
