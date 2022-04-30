@@ -7,6 +7,11 @@ const image3 = document.getElementById('image3');
 const textBox = document.getElementById('text-box');
 
 //Dark or Light Images
+function imageMode(color) {
+    image1.src = 'img/undraw_proud_coder_dark.svg';
+    image2.src = 'img/undraw_feeling_proud_dark.svg';
+    image3.src = 'img/undraw_conceptual_idea_dark.svg';
+}
 
 // Dark Mode Styles
 function darkMode() {
@@ -14,9 +19,7 @@ function darkMode() {
     textBox.style.backgroundColor = 'rgb(255 255 255 / 50%)';
     toggleIcon.children[0].textContent = 'Dark Mode';
     toggleIcon.children[1].classList.replace('fa-sun', 'fa-moon');
-    image1.src = 'img/undraw_proud_coder_dark.svg';
-    image2.src = 'img/undraw_feeling_proud_dark.svg';
-    image3.src = 'img/undraw_conceptual_idea_dark.svg';
+    
 }
 
 // Light Mode Styles
