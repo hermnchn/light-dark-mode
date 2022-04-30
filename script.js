@@ -19,7 +19,7 @@ function darkMode() {
     textBox.style.backgroundColor = 'rgb(255 255 255 / 50%)';
     toggleIcon.children[0].textContent = 'Dark Mode';
     toggleIcon.children[1].classList.replace('fa-sun', 'fa-moon');
-    
+    imageMode('dark');
 }
 
 // Light Mode Styles
@@ -28,7 +28,7 @@ function darkMode() {
     textBox.style.backgroundColor = 'rgb(0 0 0 / 50%)';
     toggleIcon.children[0].textContent = 'Light Mode';
     toggleIcon.children[1].classList.replace('fa-moon', 'fa-sun');
-    
+    imageMode('light');
 }
 
 // Switch Theme Dynamically
